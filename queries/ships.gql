@@ -1,0 +1,6 @@
+query decks($limit: Int = 5) {
+  decks(limit: $limit) {
+    id
+    name
+  }
+}
